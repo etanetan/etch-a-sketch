@@ -5,4 +5,4 @@ It has the functionality of clearing the grid, starting a new drawing, and resiz
 
 This project showcases some DOM manipulation along with integrating HTML, CSS, and JavaScript together.
 
-Click on github-pages under Environment to the right ---> and then click on View Deployment to see the game in action!
+Click on github-pages under Environment to the right ---> and then click on View Deployment to see the etch-a-sketch in action!
