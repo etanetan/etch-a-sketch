@@ -17,13 +17,13 @@ function writing(grid) {
     if(isWriting) { // toggle writing off and remove event listener from all cells in grid
         isWriting = false;
         for(let i=0; i<children.length; i++) {
-            children[i].removeEventListener('mouseleave', write);
+            children[i].removeEventListener('mouseover', write);
         }
     }
     else { // toggle writing on and add event listener to all cells in grid
         isWriting = true
         for(let i=0; i<children.length; i++) {
-            children[i].addEventListener('mouseleave', write);
+            children[i].addEventListener('mouseover', write);
         }
     }
 }
