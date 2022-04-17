@@ -35,6 +35,9 @@ function write(c) { // function to make background color black when the mouse le
 
 // sets the background color of each cell in the grid to white, clearing the grid
 function gridClearing() {
+    if(isWriting) { // reset writing status after clearing the grid
+        writing(grid)
+    }
     let children = grid.children;
     for(let i=0; i<children.length; i++) {
         children[i].style.backgroundColor = 'white';
